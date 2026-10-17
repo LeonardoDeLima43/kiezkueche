@@ -1,1 +1,1 @@
-console.log("Kiezüche läuft!");
+console.log("Kiezküche läuft!");
