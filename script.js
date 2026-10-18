@@ -1,6 +1,6 @@
 console.log("Kiezküche läuft!");
 
-const name = "Kiezküche";
+const restaurantName = "Kiezküche";
 const adresse = "Wrangelstraße 42, 10997 Berlin";
 
 const öffnungszeiten = {
@@ -14,13 +14,13 @@ const öffnungszeiten = {
 };
 
 // Restaurantname anzeigen
- document.getElementById("restaurant-name").textContent = name;
+ document.getElementById("restaurant-name").textContent = restaurantName;
 
 // Adresse anzeigen 
 document.getElementById("restaurant-adresse").textContent = adresse; 
 
 // Öffnungszeiten anzeigen 
-document.getElementById("opening-hours").textContent = `Dienstag–Sonntag: ${öffnungszeiten.dienstag} Montag: ${öffnungszeiten.montag}`; 
+document.getElementById("Öffnungszeiten").textContent = `Dienstag–Sonntag: ${öffnungszeiten.dienstag} Montag: ${öffnungszeiten.montag}`; 
 
 // Begrüßung erstellen und anzeigen 
 const begruessung = `Willkommen in der ${name} – wir freuen uns auf dich!`; document.getElementById("welcome-message").textContent = begruessung;
